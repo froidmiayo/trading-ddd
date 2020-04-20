@@ -10,7 +10,8 @@ namespace TradingEngineDDD.Repository.Dapper
     {
         public CurrencyConversionUnit GetCurrencyUsdConversion(Currency currency)
         {
-            return CurrencyConversionRepositoryMapper.ToCurrencyConversionUnit(GetAllWhere<CurrencyConversionRepositoryDbm>(new { currency.Code }).FirstOrDefault());
+            var data = GetAllWhere<CurrencyConversionRepositoryDbm>(new {currency.Code}).FirstOrDefault();
+            return CurrencyConversionRepositoryMapper.ToCurrencyConversionUnit(data);
         }
     }
 }

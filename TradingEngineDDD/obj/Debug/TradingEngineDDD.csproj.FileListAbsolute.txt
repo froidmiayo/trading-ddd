@@ -159,7 +159,6 @@ C:\Users\Dev_03\source\repos\TradingEngineSLN\TradingEngineDDD\bin\System.Net.Ht
 C:\Users\Dev_03\source\repos\TradingEngineSLN\TradingEngineDDD\bin\System.Web.Http.xml
 C:\Users\Dev_03\source\repos\TradingEngineSLN\TradingEngineDDD\bin\System.Web.Http.WebHost.xml
 C:\Users\Dev_03\source\repos\TradingEngineSLN\TradingEngineDDD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Dev_03\source\repos\TradingEngineSLN\TradingEngineDDD\obj\Debug\TradingEngineDDD.csprojAssemblyReference.cache
 C:\Users\Dev_03\source\repos\TradingEngineSLN\TradingEngineDDD\obj\Debug\TradingEngineDDD.csproj.CoreCompileInputs.cache
 C:\Users\Dev_03\source\repos\TradingEngineSLN\TradingEngineDDD\obj\Debug\TradingEngineDDD.csproj.CopyComplete
 C:\Users\Dev_03\source\repos\TradingEngineSLN\TradingEngineDDD\obj\Debug\TradingEngineDDD.dll

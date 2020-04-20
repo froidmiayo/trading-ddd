@@ -45,7 +45,9 @@ namespace TradingEngineDDD.Application
             var clientId = new ClientId(clientIdValue);
             var accountList = GetAccountsUsingClientId(clientId.Value);
             var amount = new AccountMoney(amountValue);
-            var conversion = new CurrencyConversion(_currencyConversionRepository.GetCurrencyUsdConversion(currencyFrom),_currencyConversionRepository.GetCurrencyUsdConversion(currencyTo));
+            var conversionFrom = _currencyConversionRepository.GetCurrencyUsdConversion(currencyFrom);
+            var conversionTo = _currencyConversionRepository.GetCurrencyUsdConversion(currencyTo);
+            var conversion = new CurrencyConversion(conversionFrom,conversionTo);
                 
             var response = new CurrencyExchangeRequest(clientId, accountList, currencyFrom, currencyTo, amount,conversion.ConversionRate);
 
